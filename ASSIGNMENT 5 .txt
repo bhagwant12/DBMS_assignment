@@ -1,0 +1,18 @@
+
+SQL Exercise 1
+ 1. Create the table SEMP with the following structure:- EMPNO CHAR(4) EMPNAME CHAR(20) BASIC FLOAT DEPTNO CHAR(2) DEPTHEAD CHAR(4) 
+
+create table semp (EMPNO CHAR(4) , EMPNAME CHAR(20) , BASIC FLOAT , DEPTNO CHAR(2) , DEPTHEAD CHAR(4));
+
+2. Create the table SDEPT with the following structure:- DEPTNO CHAR(2) DEPTNAME CHAR(15)
+
+ create table sdept(DEPTNO CHAR(2) , DEPTNAME CHAR(15));
+
+ 3. Insert into the SDEPT table the following values:- 10, Development 20, Training
+
+insert into sdept values (10, 'Development' ),(20, 'Training');
+
+
+ 4. Insert into the SEMP table the following values:- 0001, SUNIL, 6000, 10 0002, HIREN, 8000, 20 0003, ALI, 4000, 10, 0001 0004, GEORGE, 6000, 0002 Sameer Dehadrai Create S, P, J, SPJ tables as specified below and insert a few rows in each table:- SUPPLIER (S#, Sname, Status, City) - S PARTS (P#, Pname, Color, Weight, City) - P PROJECTS (J#, Jname, City) - J SUPPLIER-PARTS-PROJECT (S#, P#, J#, Qty) - SPJ Sample data for S# column:- ‘S1’, ‘S2’, ‘S3’, etc. Sample data for P# column:- ‘P1’, ‘P2’, ‘P3’, etc. Sample data for J# column:- ‘J1’, ‘J2’, ‘J3’, etc. Sample data for Status column:- 10, 20, 30, etc. Write the SELECT queries to do the following:- 
+
+5. Display all the data from the S table.
